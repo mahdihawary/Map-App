@@ -1,7 +1,7 @@
 {
   "name": "mapapp",
   "version": "0.1.0",
-  "homepage": "https://mahdihawary.github.io/map-app",
+  "homepage": "https://mahdihawary.github.io/Map-app",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
