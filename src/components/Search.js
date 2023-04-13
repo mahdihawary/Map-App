@@ -1,7 +1,4 @@
-import { useEffect, useState } from "react";
-
 const Search = function () {
-
   return (
     <form>
       <label>Street</label>

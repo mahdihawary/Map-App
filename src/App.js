@@ -18,14 +18,10 @@ function App() {
       error,
       options
     );
-  }, []);
+  });
 
   function error(err) {
-    if (
-      err.code === 1 || //if user denied accessing the location
-      err.code === 2 || //for any internal errors
-      err.code === 3 //error due to timeout
-    ) {
+    if (err.code === 1 || err.code === 2 || err.code === 3) {
       alert(err.message);
     } else {
       alert(err);
