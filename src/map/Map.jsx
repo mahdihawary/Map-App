@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, useMap } from "react-leaflet";
+import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import React from "react";
 import "leaflet/dist/leaflet.css";
@@ -26,6 +26,10 @@ export default function Map({ coords, display_name }) {
         contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
+
+      {/* <Marker position={[latitude, longitude]}>
+        <Popup>{display_name}</Popup>
+      </Marker> */}
 
       <MapView />
     </MapContainer>

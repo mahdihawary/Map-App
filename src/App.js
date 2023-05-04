@@ -34,14 +34,14 @@ function App() {
     timeout: 27000,
   };
   function getCurrentCityName(position) {
-    setCorrds({
-      latitude: position.coords.latitude,
-      longitude: position.coords.longitude,
-    });
+    // setCorrds({
+    //   latitude: position.coords.latitude,
+    //   longitude: position.coords.longitude,
+    // });
   }
 
-  const data = useGetMapQuery(coords);
-  console.log(data);
+  // const data = useGetMapQuery(coords);
+  console.log("in app");
 
   return (
     <div className="App" style={{ padding: "20px" }}>
